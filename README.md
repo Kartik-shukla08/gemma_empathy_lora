@@ -70,7 +70,7 @@ Two public datasets were combined to balance conversational realism and professi
 
 Approximately **12,000 processed dialogue pairs** were used in total.
 
-No dataset files are redistributed. Details are documented in `data/dataset_description.md`.
+No dataset files are redistributed. Details are documented in `Data/data_description.md`.
 
 ---
 
@@ -91,7 +91,7 @@ Training converged stably with a final loss of approximately **2.14**, indicatin
 
 ## 🧪 Inference
 
-Example script: `inference/inference.py`
+Example script: `Inference/inference.py`
 
 Run locally:
 
@@ -141,13 +141,13 @@ Responsible deployment is the responsibility of the user.
 
 ```
 .
-├── training/
-│   └── finetune.ipynb          # Training notebook
-├── inference/
+├── finetuning/
+│   └── gemmaemp.ipynb          # Training notebook
+├── Inference/
 │   └── inference.py            # Inference script
-├── data/
-│   └── dataset_description.md  # Dataset documentation
-├── notes/
+├── Data/
+│   └── data_description.md     # Dataset documentation
+├── Notes/
 │   └── design_decisions.md     # Design rationale
 └── README.md
 ```
